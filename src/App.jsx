@@ -9,12 +9,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className = "content-wrapper">
       <Header />
       <About />
       <Interests />
       <Footer />
-    </>
+    </div>
   )
 }
 

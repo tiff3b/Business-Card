@@ -1,17 +1,22 @@
 import profilePic from "../images/profile-pic.png"
+import Mail from "../images/Mail.png"
+import Linkedin from "../images/linkedin.png"
 
 function Header () {
     return(
-    <div class ="content-wrapper">
-    <header>   
+    <header>
         <img src= {profilePic} alt="Profile picture"/>
+        
+
         <h1>Tiffany Berger</h1>
         <h3>Frontend Developer</h3>
-        <a href="https://tiff3b.github.io/Portfolio/">Portfolio</a>
-        <button class="email"> <a href="mailto:tiffany3berger@gmail.com">Email</a></button>
-        <button class="linkedIn"><a href="https://www.linkedin.com/in/tiff-berger/" >LinkedIn</a></button>
+        <p><a href="https://tiff3b.github.io/Portfolio/"> Portfolio</a></p>
+        <div className="button">
+        <a className="email" href="mailto:tiffany3berger@gmail.com"> <img src={Mail} alt="Mail"/> Email</a>
+        <a className="linkedIn" href="https://www.linkedin.com/in/tiff-berger/" ><img src={Linkedin} alt="Linkedin"/>Linkedin</a>
+        </div>
+        
     </header> 
-    </div>
     )
 }
 

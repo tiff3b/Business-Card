@@ -6,7 +6,7 @@ import GitHub from "../images/GitHub Icon.png"
 
 function Footer (){
     return (
-        <div class="content-wrapper">
+        <div className="content-wrapper">
             <section class ="footer">
                 <a href="https://x.com/tiify3b" target="_blank" aria-label="Twitter">
                     <img src={Twitter} alt="Twitter"/>

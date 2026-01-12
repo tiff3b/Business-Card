@@ -1,33 +1,96 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
   background-color: #23252c;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
 }
 
 .content-wrapper{
-  width: 90%;
   background-color: #1a1b21;
 }
-img {
-  width: 68%;
+
+header {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 
+img {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  
+}
+
 h1 {
   color: #ffffff;
-  font-size: 3.2em;
+  font-size: 1.56em;
+  font-weight: bold;
   line-height: 1.1;
 }
 
 h3 {
   color: #f3bf99;
-} 
+  font-size: .8em;
+}
 
-a {
-  color: #f5f5f5;
+a{ 
   text-decoration: none;
+  font-size: .88em;
+  color: #f5f5f5;
+}
+p  {
+  font-size: .64em;
+  color: #f5f5f5;
+}
+
+.button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.email img {
+  width: 16px;
+  height: 16px;
+  border-radius: 0;
+}
+
+.linkedIn img {
+  width: 16px;
+  height: 16px;
+  border-radius: 0;
+}
+
+.email {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 20px;
+  background-color: white;
+  color: #1e1f26;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+}
+
+.email a {
+  color: #1e1f26;
+}
+
+.linkedIn {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #5093e2;
+  color: #ffffff;
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
 }
 .contact{
   text-decoration: none;
