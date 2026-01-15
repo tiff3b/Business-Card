@@ -6,22 +6,26 @@ import GitHub from "../images/GitHub Icon.png"
 
 function Footer (){
     return (
-        <div className="content-wrapper">
-            <section class ="footer">
-                <a href="https://x.com/tiify3b" target="_blank" aria-label="Twitter">
+        
+            <footer>
+                <div className="content-wrapper">
+                    <div className="footer-icons">
+                <a className = "social-icon" href="https://x.com/tiify3b" target="_blank" aria-label="Twitter">
                     <img src={Twitter} alt="Twitter"/>
                 </a>
-                <a href="https://www.facebook.com/tiffany.berger.14" target="_blank" aria-label="Facebook">
+                <a className = "social-icon" href="https://www.facebook.com/tiffany.berger.14" target="_blank" aria-label="Facebook">
                     <img src={Facebook} alt="Facebook"/>
                 </a>
-                <a href="https://www.instagram.com/tiffroo30/" target="_blank" aria-label="Instagram">
+                <a className = "social-icon" href="https://www.instagram.com/tiffroo30/" target="_blank" aria-label="Instagram">
                     <img src={Instagram} alt="Instagram"/>
                 </a>
-                <a href="https://github.com/tiff3b" target="_blank" aria-label="GitHub">
+                <a className = "social-icon" href="https://github.com/tiff3b" target="_blank" aria-label="GitHub">
                     <img src={GitHub} alt="GitHub"/>
                 </a>
-            </section>
-        </div>
+                </div>
+                </div>
+            </footer>
+        
     )
 }
 
