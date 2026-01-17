@@ -6,8 +6,11 @@ body {
   min-height: 100vh;
   min-height: 100dvh;
   background-color: #23252c;
-  font-size: 16px;
   font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 100%;
 }
 
 .content-wrapper{
@@ -16,6 +19,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 19.82rem;
 }
 
 header .content-wrapper {
@@ -26,7 +30,7 @@ header .content-wrapper {
 img {
   width: 100%;
   object-fit: cover;
-    border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
 
@@ -34,6 +38,7 @@ h1 {
   color: #ffffff;
   font-size: 1.56em;
   font-weight: bold;
+  margin-top: 30px;
 }
 
 h2 {
@@ -105,11 +110,13 @@ p  {
   text-decoration: none;
 }
 
+.about, .interests{
+  padding: 0 30px;
+}
 .about {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 40%;
     text-align: left;
 }
 
@@ -117,7 +124,6 @@ p  {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 40%;
     text-align: left;
     padding-bottom: 30px;
 }
@@ -130,7 +136,7 @@ p  {
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  padding: 40px 0;
+  padding: 20px 0;
   
 }
 
